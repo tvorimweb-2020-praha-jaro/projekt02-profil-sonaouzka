@@ -54,3 +54,23 @@ body {
 left: 180px;
 top: 150px;
 }
+
+.odkazy a{
+    color:rgb(174, 169, 169);
+    text-decoration: none;
+    padding: 1em;
+
+}
+
+.portfolio a:hover {
+    background-color: #e74c3c;
+    }
+
+
+.facebook a:hover {
+    background-color: #3b5998;
+}
+
+.twitter a:hover {
+    background-color: #1da1f2;
+}
