@@ -48,4 +48,7 @@ body {
 .logo {
     background-color: #b92e81;
     border-radius: 50%;
+    position: absolute;
+left: 180px;
+top: 150px;
 }
