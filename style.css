@@ -17,3 +17,16 @@ html { box-sizing: border-box; }
 body {
     background-color: #bdc3c7;
 }
+
+.jmeno {
+    font-family: Montserrat;
+}
+
+.obsah {
+    font-family: Source Sans Pro;
+}
+
+.odkazy {
+    font-family: Montserrat;
+
+}
