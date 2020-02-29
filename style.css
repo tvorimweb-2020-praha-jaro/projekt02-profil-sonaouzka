@@ -21,6 +21,7 @@ body {
 .jmeno {
     font-family: Montserrat;
     color: white;
+    font-size: xx-large;
 }
 
 .obsah {
@@ -34,4 +35,17 @@ body {
     display: inline-block;
 }
 
+.profil, .foto {
+    width: 250px;
+    background-color: #31363b;
+}
 
+:profil {
+    box-shadow: 2px 6px black;
+}
+
+
+.logo {
+    background-color: #b92e81;
+    border-radius: 50%;
+}
