@@ -21,12 +21,13 @@ body {
 .jmeno {
     font-family: Montserrat;
     color: white;
-    font-size: xx-large;
+    font-size: x-large;
 }
 
 .obsah {
     font-family: Source Sans Pro;
     color: rgb(174, 169, 169);
+    padding: 0px 15px;
 }
 
 .odkazy li{
