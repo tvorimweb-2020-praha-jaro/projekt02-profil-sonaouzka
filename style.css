@@ -7,7 +7,7 @@ html { box-sizing: border-box; }
  czechitas  #b92e81
  pozadi     #bdc3c7
  tmava      #31363b
- delitka    #3f464d
+ delitka    
  portfolio  #e74c3c
  facebook   #3b5998
  twitter    #1da1f2
@@ -30,12 +30,6 @@ body {
     padding: 0px 15px;
 }
 
-.odkazy li{
-    text-transform: uppercase;
-    font-family: Montserrat;
-    display: inline-block;
-}
-
 .profil, .foto {
     width: 250px;
     background-color: #31363b;
@@ -50,23 +44,31 @@ body {
     background-color: #b92e81;
     border-radius: 50%;
     box-shadow: 2px 4px 10px 4px #31363b;
-    
     position: absolute;
 left: 180px;
 top: 150px;
+}
+
+.odkazy li{
+    text-transform: uppercase;
+    font-family: Montserrat;
+    display: inline-block;
 }
 
 .odkazy a{
     color:rgb(174, 169, 169);
     text-decoration: none;
     padding: 1em;
+    display: block;
+}
 
+.facebook, .twitter {
+    display: inline;
 }
 
 .portfolio a:hover {
     background-color: #e74c3c;
     }
-
 
 .facebook a:hover {
     background-color: #3b5998;
@@ -75,3 +77,5 @@ top: 150px;
 .twitter a:hover {
     background-color: #1da1f2;
 }
+
+
