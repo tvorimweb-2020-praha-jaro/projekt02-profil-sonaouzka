@@ -20,13 +20,18 @@ body {
 
 .jmeno {
     font-family: Montserrat;
+    color: white;
 }
 
 .obsah {
     font-family: Source Sans Pro;
+    color: rgb(174, 169, 169);
 }
 
-.odkazy {
+.odkazy li{
+    text-transform: uppercase;
     font-family: Montserrat;
-
+    display: inline-block;
 }
+
+
