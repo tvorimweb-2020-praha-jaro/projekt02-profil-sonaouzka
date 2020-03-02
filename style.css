@@ -43,10 +43,15 @@ body {
 .logo {
     background-color: #b92e81;
     border-radius: 50%;
-    box-shadow: 2px 4px 10px 4px #31363b;
+    box-shadow: 2px 2px 10px 2px black;
     position: absolute;
 left: 180px;
 top: 150px;
+}
+
+.odkazy {
+    margin: 0px;
+    padding: 0px;
 }
 
 .odkazy li{
@@ -64,8 +69,18 @@ top: 150px;
 }
 
 .facebook, .twitter {
-    display: inline;
+    text-align: center;
+    width: 50%;
+    border-right: 1px solid #3f464d;
 }
+
+.portfolio {
+    width: 250px;
+    text-align: center;
+    border-bottom: 1px solid #3f464d;
+    border-top: 1px solid #3f464d;
+}
+
 
 .portfolio a:hover {
     background-color: #e74c3c;
